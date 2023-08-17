@@ -1,1 +1,33 @@
 /*  your css code here. If applicable */
+*{
+	background-color:rgb(135, 206, 235);
+}
+#p-1{
+	color:white;
+	background-color:black;
+}
+#p-2{
+	color:red;
+		
+		
+}
+#list{
+	
+		width:50%;
+		padding:10px;
+}
+
+li:first-child{
+	font-size:22px;
+	background-color:white;
+}
+li:last-child{
+	font-size:22px;
+	background-color:white;
+}
+li:nth-child(even){
+	background-color:gray;
+}
+li:nth-child(3){
+	background-color:pink;
+}
